@@ -61,10 +61,12 @@ Tabellen skal inkludere:
 ### Fund
 Vestas har med deres omstrukturering varetaget en opdateret forecast af forbruget som, deres forskellige afdelingerne har til rådighed. Budgettet illustreres i følgende tabel:
 
-![alt text](![alt text](Assets/images/Vestas'-Budget.png)
+
+(![alt text](Assets/images/Vestas'-Budget.png)
 
 
 Med allokeringen af pengene til andre afdelinger, som havde et større behov. Sikre Vestas at belastningen under omstruktureringen ikke var mere alvorlig. Udregningen af afvigelserne af budgettet ser ud som følgende:
+
 
 ![alt text](Assets/images/Afvigelse.png)
 
@@ -80,14 +82,15 @@ Afvigelserne i tabellen viser forskellen mellem den opdatererede prognose, som V
 Diagrammet forneden illustreret forbruget, som afdelingerne skulle have holdt sig inde for og det som aktuelt står til. De blå søjler repræsenterer de målte omkostninger i Dollars, hvor de orange repræsenterer de faktiske omkostninger i Dollars:
 
 
-![alt text](![alt text](Assets/images/Tabel.png)
+(![alt text](Assets/images/Tabel.png)
 
 Betinget formatering er blevet anvendt for at tydeligere hvilke afdelinger, som holdte sig inden for budgettet, de som ikke gjorde:
 
 
-![alt text](![alt text](Assets/images/Vestas'-Budget.png)
+(![alt text](Assets/images/Vestas'-Budget.png)
 
 Med følgende HVIS funktion blev kategoriseringen automatiseret:
+
 
 ![alt text](Assets/images/HVIS-funktion.png)
 
