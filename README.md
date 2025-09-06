@@ -18,13 +18,14 @@
 - [Handlingsplan](#Handlingsplan)
 - [Scenarieanalyse](#Scenarieanalyse)
 - [Anbefalinger](#Anbefalinger)
-- [Konklusion](#Konklusion) 
+
 
 
 
 # Formål 
 udarbejd projektbudgetter i Excel baseret på en rullende forecast.
-User Story
+
+# User Story
 Vestas er under en større omstrukturering af deres interne organisationsstruktur, og har derfor hyret dig, som en ekstern konsulent. Din opgave er at opstille en budgetprognose, med funktioner som løbende kan opdatere afvigelser og prognoser. Derefter har du til opgave at udarbejde en scenarieanalyse indeholdende best case, worst case og "Mest sandsynlige tilfælde” og simuler, hvordan ændringer i antagelser påvirker budgettet.
 
 # Objektivet
