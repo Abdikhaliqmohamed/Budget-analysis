@@ -55,16 +55,20 @@ Tabellen skal inkludere:
 •	Faktiske omkostninger
 •	Mærkatet som viser når budgetter er overskredet
 
+
 # Analyse
 
 ### Fund
 Vestas har med deres omstrukturering varetaget en opdateret forecast af forbruget som, deres forskellige afdelingerne har til rådighed. Budgettet illustreres i følgende tabel:
 
- 
+![alt text](![alt text](Assets/images/Vestas'-Budget.png)
+
 
 Med allokeringen af pengene til andre afdelinger, som havde et større behov. Sikre Vestas at belastningen under omstruktureringen ikke var mere alvorlig. Udregningen af afvigelserne af budgettet ser ud som følgende:
 
- 
+![alt text](Assets/images/Afvigelse.png)
+
+
 
 Afvigelserne i tabellen viser forskellen mellem den opdatererede prognose, som Vestas’ finansielle afdeling varetog, og de faktiske omkostninger afdelingerne ren faktisk havde. Underafdelingerne har ifølge afvigelsen ikke holdt sig inden for budgettet. Udover Driftsstøtte, som har sparet virksomheden for 15.000 $. 
 
@@ -75,15 +79,17 @@ Afvigelserne i tabellen viser forskellen mellem den opdatererede prognose, som V
 # Visualisering
 Diagrammet forneden illustreret forbruget, som afdelingerne skulle have holdt sig inde for og det som aktuelt står til. De blå søjler repræsenterer de målte omkostninger i Dollars, hvor de orange repræsenterer de faktiske omkostninger i Dollars:
 
- 
+
+![alt text](![alt text](Assets/images/Tabel.png)
 
 Betinget formatering er blevet anvendt for at tydeligere hvilke afdelinger, som holdte sig inden for budgettet, de som ikke gjorde:
 
- 
+
+![alt text](![alt text](Assets/images/Vestas'-Budget.png)
 
 Med følgende HVIS funktion blev kategoriseringen automatiseret:
 
- 
+![alt text](Assets/images/HVIS-funktion.png)
 
 
 
@@ -98,15 +104,15 @@ Kvartalsbudgettet som finansafdelingen for Vestas’ fik udregnet indholdene de 
 
 
 # Handlingsplan
-Strammere overvågning:
+
+##### Strammere overvågning:
+
 Vestas har deres omstrukturering stået i en uforudsigelig situation, hvor mangle bolde skulle jongleres med oppe i luften. Virksomheden kan i stedet for føre budgetopfølgning kvartalsvist, især under en omstrukturering, overvåge budgettet månedligt. Dette kan hjælpe med at allokere budgettet hurtigere.
  
-Sikkerhedsnet:
+##### Sikkerhedsnet:
+
 Som vist i budgettet, er afvigelserne ikke ude i det ekstreme. Det højeste man finder under installationen af vindmøller som står til at have brugt mere end 40.000 $. Der bør derfor opstilles en sikkerhedsnet f.eks. 10% af det totale budget for at undgå lignende situationer.
 
-Scenarieanalyse:
+##### Scenarieanalyse:
+
 Scenarieanalyser bør implementeres i planlægningsprocessen, og gjort til et fast værktøj. Sammen med et videreudviklet dashboard, som skaber et overblik for ledelsen, så de kan tage datadrevne valg.
-
-
-Konklusion
-For at sikre en mere robust økonomistyring bør Vestas implementere tættere budgetopfølgning, etablere en risikopulje samt anvende scenarieanalyser som en integreret del af beslutningsprocessen. På den måde kan virksomheden bedre navigere i en usikker periode og samtidig skabe grundlag for mere præcise og strategiske budgetbeslutninger.
