@@ -1,7 +1,7 @@
 #  Budget og omkostningsstyring
 
 
-##Billede skal være her 
+![alt text](Assets/images/budget.png)
 
 ## Litteraturliste
 
