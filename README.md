@@ -17,50 +17,51 @@
 - [Visualisering](#Visualisering)
 - [Handlingsplan](#Handlingsplan)
 - [Scenarieanalyse](#Scenarieanalyse)
-- [Anbefalinger](#Anbefalinger)
+- [Handlingsplan](#Handlingsplan)
 
 
 
 
 # Formål 
-udarbejd projektbudgetter i Excel baseret på en rullende forecast.
+At udarbejde et budgetanalyse for Vestas' kvatale omkostninger i Excel baseret på en rullende forecast. Analysen skal kunne give ledelsen et klart overblik over deres øknomi, og hjælpe med at tage datadrevne beslutninger. 
 
 # User Story
-Vestas er under en større omstrukturering af deres interne organisationsstruktur, og har derfor hyret dig, som en ekstern konsulent. Din opgave er at opstille en budgetprognose, med funktioner som løbende kan opdatere afvigelser og prognoser. Derefter har du til opgave at udarbejde en scenarieanalyse indeholdende best case, worst case og "Mest sandsynlige tilfælde” og simuler, hvordan ændringer i antagelser påvirker budgettet.
+Vestas er under en større omstrukturering af deres interne organisationsstruktur, og har derfor hyret en ekstern konsulent, til at udføre en budgetprognose. Prognosen skal følgende:
+
+- Kunne opdateres løbende med afvigelser og prognoser.
+- Indholde en scenarieanalyse bestående af best case, worst case og mest sandsynlige tilfælde
+- Illustrerer hvordan ændringerne påvirker budgettet.
 
 # Objektivet
-At skabe en udgiftsrapport for Vestas
-•	Spotte afdelinger som over forbruger 
-•	Følge hver afdelings økonomiske bevægelser
-•	Lave smartere budget valg
+Målet er at skabe en udgiftsrapport for Vestas, der gør det muligt at:
 
-# Bruger detalje
-Hvem er brugeren 
-•	Vestas’ CFO
-Hvad har de svært med 
-•	De er under en uforudsigelig periode med omstruktureringen 
-•	De vil have et overblik over forbruget
+•	Spotte afdelinger med overforbrug
+•	Følge økonomiske bevægelser på tværs af organisationen
+•	Træffe smartere datadrevne beslutninger
 
-### Hvordan ser succes ud for dem?
-De vil have: 
-•	En tabel som viser deres afdelinger og deres forbrug
-•	En måde at kunne markere overforbrug automatisk
-•	En visuel som kan hjælpe med at vise hvad pengene går til 
-•	En scenarieanalyse
+# Udfordringer 
+•	Organisationen står i en uforudsigelig periode med omstrukturering 
+•	Savner et samlet overblik over deres finansielle status
 
-### Hvad skal der bygges?
-Tabellen skal inkludere:
+### Succes for brugeren betyder
+
+•	En overskuelig tabel som viser forbruget
+•	Automatisering for markeringen af steder med overforbrug
+•	Visualisering af udgifter fordelt på afdelingerne 
+•	En scenarieanalyse til at understøtte ledelsens beslutninger
+
+### Leverencen skal indeholde?
 •	Projektområde
 •	Oprindeligt budget
 •	Opdateret forecast 
 •	Faktiske omkostninger
-•	Mærkatet som viser når budgetter er overskredet
+•	Markering af overskridelser
 
 
 # Analyse
 
 ### Fund
-Vestas har med deres omstrukturering varetaget en opdateret forecast af forbruget som, deres forskellige afdelingerne har til rådighed. Budgettet illustreres i følgende tabel:
+Vestas har under deres omstrukturering allerede igangsat opdateret forecast for afdelingerne. Tabellen viser hvorderen pengene er blevet fordelt:
 
 
 ![alt text](Assets/images/Vestas'-Budget.png)
@@ -73,14 +74,17 @@ Med allokeringen af pengene til andre afdelinger, som havde et større behov. Si
 
 
 
-Afvigelserne i tabellen viser forskellen mellem den opdatererede prognose, som Vestas’ finansielle afdeling varetog, og de faktiske omkostninger afdelingerne ren faktisk havde. Underafdelingerne har ifølge afvigelsen ikke holdt sig inden for budgettet. Udover Driftsstøtte, som har sparet virksomheden for 15.000 $. 
+Afvigelserne i tabellen viser forskellen mellem den forecast og de aktuelle omkostninger. Projektområderne har ifølge analysen ikke holdt sig inden for budgettet. Driftsstøtte som den eneste genereret en besparelse for virksomheden på 15.000 $. 
 
 
 
 
 
 # Visualisering
-Diagrammet forneden illustreret forbruget, som afdelingerne skulle have holdt sig inde for og det som aktuelt står til. De blå søjler repræsenterer de målte omkostninger i Dollars, hvor de orange repræsenterer de faktiske omkostninger i Dollars:
+Diagrammet forneden illustreret forbruget, og giver et overblik over:
+
+De forventede omkostinger vs. faktiske omkostninger. 
+De blå søjler repræsenterer de målte omkostninger i Dollars, hvor de orange repræsenterer de faktiske omkostninger i Dollars:
 
 
 ![alt text](Assets/images/Tabel.png)
@@ -90,7 +94,7 @@ Betinget formatering er blevet anvendt for at tydeligere hvilke afdelinger, som 
 
 ![alt text](Assets/images/Vestas'-Budget.png)
 
-Med følgende HVIS funktion blev kategoriseringen automatiseret:
+Den automatiske kategorisering er opnået ved hjælp af HVIS-funktioner i Excel, hvilket reducerer manuel fejlretning og giver et mere skalerbart system
 
 
 ![alt text](Assets/images/HVIS-funktion.png)
@@ -100,10 +104,10 @@ Med følgende HVIS funktion blev kategoriseringen automatiseret:
 
 
 # Scenarieanalyse 
-Kvartalsbudgettet som finansafdelingen for Vestas’ fik udregnet indholdene de opdaterede forecast og faktiske omkostninger, er den mest sandsynlige scenarie som kunne hænde. Det afspejler de forventninger som virksomheden rent faktisk havde for de forskellige afdelingers. Nedenfor er der blevet udarbejdet en best case, og wost case scenarie for budgettet, som antager at alle projekter holder sig under budgettet 7%, og 10% over.
-
- 
-
+Budgettet som på forhånd var blev udregnet er med udgangspunkt det mest sandsynlige scenarie. For at teste robustheden er der udviklet: 
+- Best case: alle projekter holder sig 7 % under budget.
+- Worst case: projekterne overskrider budgettet med 10 %.
+Denne tilgang giver ledelsen et klart billede af, for at drøfte og styrke strategier ved at klarlægge, hvad der har betydning på lang sigt
  
 
 
@@ -111,12 +115,12 @@ Kvartalsbudgettet som finansafdelingen for Vestas’ fik udregnet indholdene de 
 
 ##### Strammere overvågning:
 
-Vestas har deres omstrukturering stået i en uforudsigelig situation, hvor mangle bolde skulle jongleres med oppe i luften. Virksomheden kan i stedet for føre budgetopfølgning kvartalsvist, især under en omstrukturering, overvåge budgettet månedligt. Dette kan hjælpe med at allokere budgettet hurtigere.
+I stedet for udelukkende at føre kvartalsvis budgetopfølgning bør Vestas under omstruktureringen indføre månedlig overvågning. Det gør det muligt at reagere hurtigere på afvigelser og omallokere midler.
  
 ##### Sikkerhedsnet:
 
-Som vist i budgettet, er afvigelserne ikke ude i det ekstreme. Det højeste man finder under installationen af vindmøller som står til at have brugt mere end 40.000 $. Der bør derfor opstilles en sikkerhedsnet f.eks. 10% af det totale budget for at undgå lignende situationer.
+For at reducere risiko bør Vestas afsætte en buffer på eksempelvis 10 % af det samlede budget. Det kan forhindre større udfordringer, når enkeltprojekter overskrider budgettet.
 
 ##### Scenarieanalyse:
 
-Scenarieanalyser bør implementeres i planlægningsprocessen, og gjort til et fast værktøj. Sammen med et videreudviklet dashboard, som skaber et overblik for ledelsen, så de kan tage datadrevne valg.
+Scenarieanalyser bør integreres i den fremtidige planlægningsproces og kombineres med et dashboard, der giver et visuelt overblik. Dette sikrer, at ledelsen kan træffe mere informerede og datadrevne beslutninger.
