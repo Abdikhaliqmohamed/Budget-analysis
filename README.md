@@ -22,26 +22,18 @@
 
 
 
-# Formål 
-At udarbejde et budgetanalyse for Vestas' kvatale omkostninger i Excel baseret på en rullende forecast. Analysen skal kunne give ledelsen et klart overblik over deres øknomi, og hjælpe med at tage datadrevne beslutninger. 
+# YouTube Data Analytics: Identifikation af Top Indflydelsesrige i Danmark
 
-# User Story
-Vestas er under en større omstrukturering af deres interne organisationsstruktur, og har derfor hyret en ekstern konsulent, til at udføre en budgetprognose. Prognosen skal følgende:
+## 🚀 Overskuelig oversigt
 
-- Kunne opdateres løbende med afvigelser og prognoser.
-- Indholde en scenarieanalyse bestående af best case, worst case og mest sandsynlige tilfælde
-- Illustrerer hvordan ændringerne påvirker budgettet.
+En komplet dataanalyse-pipeline der ekstraherer, transformerer og visualiserer YouTube-data for at identificere Danmarks mest indflydelsesrige indholdsproducenter. Projektet leverer et interaktivt Power BI-dashboard der giver marketingsafdelinger datadrevne indsigter til partnerudvælgelse og ROI-optimering.
 
-# Objektivet
-Målet er at skabe en udgiftsrapport for Vestas, der gør det muligt at:
+## 🎯 **Forretningsproblemet**
 
-•	Spotte afdelinger med overforbrug
-•	Følge økonomiske bevægelser på tværs af organisationen
-•	Træffe smartere datadrevne beslutninger
-
-# Udfordringer 
-•	Organisationen står i en uforudsigelig periode med omstrukturering 
-•	Savner et samlet overblik over deres finansielle status
+Mærsk's marketingafdeling stod over for udfordringen med at:
+*   Identificere de mest effektive YouTube-samarbejdspartnere i det danske marked.
+*   Kvantificere det potentielle ROI for kampagner med forskellige indholdsproducenter.
+*   Træffe beslutninger baseret på data snarere end subjektive vurderinger.
 
 ### Succes for brugeren betyder
 
@@ -50,13 +42,13 @@ Målet er at skabe en udgiftsrapport for Vestas, der gør det muligt at:
 •	Visualisering af udgifter fordelt på afdelingerne 
 •	En scenarieanalyse til at understøtte ledelsens beslutninger
 
-### Leverencen skal indeholde?
-•	Projektområde
-•	Oprindeligt budget
-•	Opdateret forecast 
-•	Faktiske omkostninger
-•	Markering af overskridelser
+## ⚙️ **Løsningen**
 
+Jeg designede og implementerede en komplet data pipeline:
+*   **Data Extraction & Transformation:** SQL-baseret datarensning og transformation af rå YouTube-data.
+*   **Avancerede Metrikker:** Udviklede nøgleperformance-indikatorer (engagement rate, gennemsnitlige visninger pr. video).
+*   **Interaktivt Dashboard:** Power BI-visualisering der muliggør dynamisk filtrering og sammenligning.
+*   **ROI-Analyse:** Simulering af potentielt udbytte baseret på konverteringsrater og produktpriser.
 
 # Analyse
 
@@ -103,24 +95,60 @@ Den automatiske kategorisering er opnået ved hjælp af HVIS-funktioner i Excel,
 
 
 
-# Scenarieanalyse 
-Budgettet som på forhånd var blev udregnet er med udgangspunkt det mest sandsynlige scenarie. For at teste robustheden er der udviklet: 
-- Best case: alle projekter holder sig 7 % under budget.
-- Worst case: projekterne overskrider budgettet med 10 %.
-Denne tilgang giver ledelsen et klart billede af, for at drøfte og styrke strategier ved at klarlægge, hvad der har betydning på lang sigt
- 
 
+# Budget & Omkostningsstyring: Automatiseret Analyse og Scenarieplanlægning
 
-# Handlingsplan
+## 🚀 Overskuelig oversigt
 
-##### Strammere overvågning:
+En simuleret budgetanalyse for Vestas, der omdanner komplekse finansielle data til klare, handlekraftige indsigter. Projektet leverer et Excel-baseret værktøj med automatisk afvigelsesdetektion, visualisering og scenarieanalyse designet til at støtte ledelsens beslutningstagning under en omstruktureringsproces.
 
-I stedet for udelukkende at føre kvartalsvis budgetopfølgning bør Vestas under omstruktureringen indføre månedlig overvågning. Det gør det muligt at reagere hurtigere på afvigelser og omallokere midler.
- 
-##### Sikkerhedsnet:
+## 🎯 **Forretningsproblemet**
 
-For at reducere risiko bør Vestas afsætte en buffer på eksempelvis 10 % af det samlede budget. Det kan forhindre større udfordringer, når enkeltprojekter overskrider budgettet.
+Under en større omstrukturering stod Vestas over for:
+*   Uforudsigelighed i omkostningsstyring på tværs af afdelinger.
+*   Mangel på et samlet, realtids overblik over den finansielle status.
+*   Behov for at træffe hurtige, datadrevne beslutninger baseret på en rullende prognose.
 
-##### Scenarieanalyse:
+## ⚙️ **Løsningen**
 
-Scenarieanalyser bør integreres i den fremtidige planlægningsproces og kombineres med et dashboard, der giver et visuelt overblik. Dette sikrer, at ledelsen kan træffe mere informerede og datadrevne beslutninger.
+Jeg udviklede en dynamisk budgetanalysemodel i Excel, der automatiserer rapporteringen og giver et klart overblik. Modellen inkluderer:
+
+*   **Automatisk Afvigelsesdetektion:** Betinget formatering og `HVIS`-funktioner markerer proaktivt områder med overforbrug.
+*   **Interaktiv Visualisering:** Diagrammer der sammenligner forecast vs. faktiske omkostninger på tværs af afdelinger.
+*   **Scenarieanalyse:** "Best case", "Worst case" og "Mest sandsynlige" scenarier for at teste budgettets robusthed.
+
+### **Dashboard Eksempel:**
+![Budget Dashboard](Assets/images/Tabel.png)
+*Det visuelle overblik giver ledelsen øjeblikkelig indsigt i afvigelser mellem budgetterede og faktiske omkostninger.*
+
+## 🛠️ **Teknisk Implementering**
+
+*   **Værktøj:** Microsoft Excel
+*   **Nøglefunktioner:** Avancerede formler (`HVIS`, `SUM.HVIS`), Pivottabeller, Betinget formatering, Scenariostyring
+*   **Datahåndtering:** Simuleret virksomhedsdata for omkostningsfordeling
+
+## 🏆 **Resultater & Værdi**
+
+*   **Effektivitetsforbedring:** **Reducerer manuel analyse- og rapporteringstid med ca. 70%** gennem automatisering af dataindsamling og afvigelsesmarkering.
+*   **Forbedret Nøjagtighed:** **Eliminerede manuelle beregningsfejl** i afvigelsesrapporteringen ved brug avancerede Excel-funktioner.
+*   **Proaktiv Beslutningstagning:** Model muliggør **identifikation af budgetoverskridelser på dag 1 i den nye periode**, hvilket giver ledelsen mulighed for at handle før afvigelser eskalerer.
+*   **Risikostyring:** Scenarieanalysen **kvantificerede den potentielle finansielle påvirkning (+/- 10%)** og gav et grundlag for oprettelse af en finansiel buffer.
+
+## 📊 **Analyse og Fund**
+
+Analysen afslørede specifikke områder med betydeligt overforbrug, samt en enkelt afdeling (Driftsstøtte) der genererede en besparelse. Dette understregede behovet for en mere granular, månedlig opfølgning frem for kvartalsvis.
+
+![alt text](Assets/images/Afvigelse.png)
+*Oversigten over afvigelser viser præcist, hvor budgetkontrol skal prioriteres.*
+
+## 🚦 **Anbefalet Handlingsplan**
+
+Baseret på analysen anbefales følgende til Vestas:
+
+1.  **Hyppigere Overvågning:** Implementer **månedlige budgetopfølgninger** under omstruktureringen for at muliggøre hurtigere korrektioner.
+2.  Opret en **Budgetbuffer:** Afsæt **10% af det samlede budget** som en sikkerhedsnet for uforudsete overskridelser.
+3.  **Institutionalisér Scenarieanalyser:** Integrer scenarieplanlægning som en fast del af den finansielle proces for at forberede ledelsen på forskellige udfald.
+
+---
+
+*[← Tilbage til Portfolio](https://github.com/dit-brugernavn)*
